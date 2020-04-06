@@ -1,10 +1,70 @@
 # Installing Bootstrap theme with Django app
 
+```
+Project: Creating a simple portfolio
+author: Supriya J
+version: 1.0.0
+Date Created: March/01/2020
+```
+
 Learn how to use Bootstrap themes with your Django web application.
 
 This is a simple demo project to create a static demo-portfolio web application using bootstrap theme in your django application.
 
-If you want to learn and develop a basic web application using Django, please refer to my repository [Django-Project](https://github.com/supriya-s-jadhav/Django-Project) which is a good guide to get you started with building a basic web application.
+<b>If you want to learn and develop a basic web application using Django, please refer to my repository [Django-Project](https://github.com/supriya-s-jadhav/Django-Project) which is a good guide to get you started with building a basic web application.</b>
+
+# Repository outline and content details
+
+```
+Install-Portfolio-Bootstrap-Theme-With-Django-/
+|__ portfolio/
+|__ venv_portfolio/
+|__ website-view-Images
+|__ How-to.md
+|__ Personal_portfolio-project-outline.md
+|__ Readme.md
+```
+
+| Directory/document name | Directory details |
+|-------------|----------------|
+| portfolio | portfolio is a Django project name. It is a collection of settings for an instance of Django, including database configuration, Django-specific options and application-specific settings.|
+| venv_portfolio | A virtual environment variable created to work with the project. |
+| website-view-Images | Collection of screenshots of Portfolio web application. |
+| How-to.md | Document explaining how to install libraries and resolve issues specific to Personal-Portfolio project. |
+| Personal_Portfolio_project-outline.md | Document explaining Project outline and content details. |
+| Readme.md | Personal-Portfolio project Readme file. |
+
+
+## Django project (portfolio) outline and content details
+
+Now that your django project environment : mysite - is all set up, you are off to start developing the web application.
+
+cd into the project directory called portfolio, where you have created your application called 'mysite_app'.
+```
+portfolio/
+|__ media
+|__ mysite_app/
+    |__ migrations/
+        |__ __init__.py
+    |__ __init__.py
+    |__ admin.py
+    |__ apps.py
+    |__ models.py
+    |__ tests.py
+    |__ views.py
+    |__ urls.py
+|__ portfolio/
+    |__ __pycache__
+    |__ __init__.py
+    |__ asgi.py
+    |__ settings.py
+    |__ urls.py
+    |__ wsgi.py
+|__ static
+|__ templates
+|__ db.sqlite3
+|__ manage.py
+```
 
 # Technologies used
 
