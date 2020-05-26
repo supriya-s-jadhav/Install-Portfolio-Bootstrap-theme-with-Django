@@ -1,3 +1,11 @@
+```
+AUTHOR: Supriya Jadhav
+
+Version: 1.0
+
+Date: April 2020
+
+```
 # Installing Bootstrap theme with Django app
 
 ```
